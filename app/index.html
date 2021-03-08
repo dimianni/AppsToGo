@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>AppsToGo</title>
+
+    <meta name="description" content="" />
+
+    <!-- Must be used throughtout website -->
+    <meta name="keywords" content="">
+
+    <meta name="author" content="">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <!-- Remember to use alt tag for images, title tag for links (a), & h1 h1 h3 -->
+    <main>
+
+        <header class="header">
+            <div class="header-container">
+                <div class="header-wrapper">
+                    <div class="header-wrapper__left">
+                        <a href="/" class="header-wrapper__left-logo">
+                            <img src="images/appstogo_logo.svg" alt="">
+                        </a>
+                        <div class="header-wrapper__left-menu">
+                            <a href="#about" class="header-wrapper__left-menu--el">About Us</a>
+                            <a href="#services" class="header-wrapper__left-menu--el">Services</a>
+                            <a href="#call" class="header-wrapper__left-menu--el">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="header-wrapper__right">
+                        <div class="header-wrapper__right-contact">
+                            <!-- <a href="#" class="header-wrapper__right-contact--el">
+                                <img src="images/tel.svg" alt="">
+                            </a> -->
+                            <a href="#" class="header-wrapper__right-contact--el">
+                                <img src="images/tg.svg" alt="">
+                            </a>
+                            <a href="#" class="header-wrapper__right-contact--el">
+                                <img src="images/mail.svg" alt="">
+                            </a>
+                            <a href="#" class="header-wrapper__right-contact--el">
+                                <img src="images/fb.svg" alt="">
+                            </a>
+                            <a href="#" class="header-wrapper__right-contact--el">
+                                <img src="images/insta.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header-wrapper__right-language">
+                            <div class="header-wrapper__right-language--active">
+                                <div>En</div>
+                            </div>
+                            <a href="./ru" class="header-wrapper__right-language--add">
+                                <div>Ru</div>
+                            </a>
+                        </div>
+                        <div class="header-wrapper__right-burger">
+                            <div id="nav-icon3">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mobmenu">
+                        <div class="header-container">
+                            <div class="mobmenu-wrapper">
+                                <div class="mobmenu-wrapper__lang">
+                                    <a href="./ru">Ru</a>
+                                </div>
+                                <a href="#about" class="mobmenu-wrapper__el">About Us</a>
+                                <a href="#services" class="mobmenu-wrapper__el">Services</a>
+                                <a href="#call" class="mobmenu-wrapper__el">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+<!-- 
+        <div class="career">
+            <div class="career-wrapper">
+                <div class="career-wrapper__close">
+                    <img src="images/close.svg" alt="">
+                </div>
+                <div class="career-wrapper__title">Career functionality is now in working stage</div>
+                <div class="career-wrapper__text">Feel free to send us your CV via email</div>
+                <a href="mailto:email@email.com" class="career-wrapper__btn">Send CV</a>
+            </div>
+        </div> -->
+
+        <section id="hero" class="section hero">
+            <div class="hero-bg">
+                <div class="hero-bg__wave1">
+                    <picture>
+                        <source srcset="images/hero-wave1.webp 1x" type="image/webp">
+                        <img type="image/png" src="images/hero-wave1.png" alt="">
+                    </picture>
+                    <!-- <img src="images/hero-wave1.png" alt=""> -->
+                </div>
+                <div class="hero-bg__wave2">
+                    <!-- <img src="images/hero-wave2.png" alt=""> -->
+                    <picture>
+                        <source srcset="images/hero-wave2.webp 1x" type="image/webp">
+                        <img type="image/png" src="images/hero-wave2.png" alt="">
+                    </picture>
+                </div>
+                <div class="hero-bg__wave3">
+                    <!-- <img src="images/hero-wave3.png" alt=""> -->
+                    <picture>
+                        <source srcset="images/hero-wave3.webp 1x" type="image/webp">
+                        <img type="image/png" src="images/hero-wave3.png" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-wrapper__cont">
+                        <div class="hero-wrapper__cont--noise">
+                            <!-- <img src="images/NoiseEffect.png" alt=""> -->
+                            <picture>
+                                <source srcset="images/NoiseEffect.webp 1x" type="image/webp">
+                                <img type="image/png" src="images/NoiseEffect.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="hero-wrapper__cont--title">
+                            AppsToGo
+                        </div>
+                        <div class="hero-wrapper__cont--text">
+                            <div>Speed.</div>
+                        </div>
+                        <div class="hero-wrapper__cont--text">
+                            <div>Price.</div>
+                        </div>
+                        <div class="hero-wrapper__cont--text quality">
+                            <div>Quality.</div>
+                        </div>
+                        <a href="#call" class="hero-wrapper__cont--btn">
+                            Create An App
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-wrapper__left">
+                        <div>About&nbsp;</div>
+                        <div>Us</div>
+                    </div>
+                    <div class="about-wrapper__right">
+                        <!-- <img src="images/blank-ip.png" alt=""> -->
+                        <picture>
+                            <source srcset="images/blank-ip.webp 1x" type="image/webp">
+                            <img type="image/png" src="images/blank-ip.png" alt="">
+                        </picture>
+
+                        <picture class="about-wrapper__right-pi about-wrapper__right-pi--1">
+                            <source srcset="images/pi1.webp 1x" type="image/webp">
+                            <img type="image/png" src="images/pi1.png" alt="">
+                        </picture>
+                        <picture class="about-wrapper__right-pi about-wrapper__right-pi--2">
+                            <source srcset="images/pi2.webp 1x" type="image/webp">
+                            <img type="image/png" src="images/pi2.png" alt="">
+                        </picture>
+                        <picture class="about-wrapper__right-pi about-wrapper__right-pi--3">
+                            <source srcset="images/pi3.webp 1x" type="image/webp">
+                            <img type="image/png" src="images/pi3.png" alt="">
+                        </picture>
+                        <picture class="about-wrapper__right-pi about-wrapper__right-pi--4">
+                            <source srcset="images/pi4.webp 1x" type="image/webp">
+                            <img type="image/png" src="images/pi4.png" alt="">
+                        </picture>
+
+                        <!-- <img class="about-wrapper__right-pi about-wrapper__right-pi--1" src="images/pi1.png" alt="">
+                        <img class="about-wrapper__right-pi about-wrapper__right-pi--2" src="images/pi2.png" alt="">
+                        <img class="about-wrapper__right-pi about-wrapper__right-pi--3" src="images/pi3.png" alt="">
+                        <img class="about-wrapper__right-pi about-wrapper__right-pi--4" src="images/pi4.png" alt=""> -->
+                        <div class="about-wrapper__right-text">
+                            <div class="about-wrapper__right-text--message about-wrapper__right-text--message_client">
+                                <div>Who are you?</div>
+                            </div>
+                            <div class="about-wrapper__right-text--message about-wrapper__right-text--message_comp">
+                                <div>We are IT outsourcing company
+                                    based in Ukraine and specializing in
+                                    software development from scratch to
+                                    production.</div>
+                            </div>
+                            <div class="about-wrapper__right-text--message about-wrapper__right-text--message_client">
+                                <div>There are millions of such
+                                    companies, why should I choose
+                                    you to create my app?</div>
+                            </div>
+                            <div class="about-wrapper__right-text--message about-wrapper__right-text--message_comp">
+                                <div>Because we follow best software
+                                    maintenance & development
+                                    practices and consult you through
+                                    every step in order to keep our work
+                                    clear.</div>
+                            </div>
+                            <div class="about-wrapper__right-text--message about-wrapper__right-text--message_client">
+                                <div>Let's work together:) I have an
+                                    awesome idea!
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="difference" class="section difference">
+            <div class="difference-noise">
+                <!-- <img src="images/NoiseEffectDiff.png" alt=""> -->
+                <picture>
+                    <source srcset="images/NoiseEffectDiff.webp 1x" type="image/webp">
+                    <img type="image/png" src="images/NoiseEffectDiff.png" alt="">
+                </picture>
+            </div>
+            <div class="container">
+                <div class="difference-wrapper">
+                    <div class="difference-wrapper__heading">
+                        <div class="connector">
+                            <div>What's&nbsp;</div>
+                            <div>Our</div>
+                        </div>
+                        <div>Difference?</div>
+                    </div>
+                    <div class="difference-wrapper__img">
+                        <!-- <img class="difference-wrapper__img-main" src="images/ScreenV3.png" alt=""> -->
+                            <picture class="difference-wrapper__img-main">
+                                <source srcset="images/ScreenV3.webp 1x" type="image/webp">
+                                <img type="image/png" src="images/ScreenV3.png" alt="">
+                            </picture>
+                        <div class="difference-wrapper__img-glass">
+                            <!-- <img src="images/GlassScreenV3.png" alt=""> -->
+                            <picture>
+                                <source srcset="images/GlassScreenV3.webp 1x" type="image/webp">
+                                <img type="image/png" src="images/GlassScreenV3.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="services-wrapper">
+                    <div class="services-wrapper__left">
+                        <div>Our&nbsp;</div>
+                        <div>Services</div>
+                    </div>
+                    <div class="services-wrapper__right">
+                        <div class="services-wrapper__right-el">
+                            <img class="services-wrapper__right-el--img" src="images/mobdev.svg" alt="">
+                            <div class="services-wrapper__right-el--title">Mobile Development</div>
+                            <div class="services-wrapper__right-el--descr">iOS and Android native app development
+                                following best-practices</div>
+                        </div>
+                        <div class="services-wrapper__right-el">
+                            <img class="services-wrapper__right-el--img" src="images/uxdesign.svg" alt="">
+                            <div class="services-wrapper__right-el--title">UX/Design</div>
+                            <div class="services-wrapper__right-el--descr">High quality, attractive and clear user
+                                interface designs.</div>
+                        </div>
+                        <div class="services-wrapper__right-el">
+                            <img class="services-wrapper__right-el--img" src="images/serverside.svg" alt="">
+                            <div class="services-wrapper__right-el--title">Server-Side</div>
+                            <div class="services-wrapper__right-el--descr">Backend development for your projects</div>
+                        </div>
+                        <div class="services-wrapper__right-el">
+                            <img class="services-wrapper__right-el--img" src="images/maintainance.svg" alt="">
+                            <div class="services-wrapper__right-el--title">Maintenance</div>
+                            <div class="services-wrapper__right-el--descr">Continuous support: improvements & updates
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="call" class="section call">
+            <div class="call-bg">
+                <div class="call-bg__wave1">
+                    <!-- <img src="images/call-wave1.png" alt=""> -->
+                    <picture>
+                        <source srcset="images/call-wave1.webp 1x" type="image/webp">
+                        <img type="image/png" src="images/call-wave1.png" alt="">
+                    </picture>
+                </div>
+                <div class="call-bg__wave2">
+                    <!-- <img src="images/call-wave2.png" alt=""> -->
+                    <picture>
+                        <source srcset="images/call-wave2.webp 1x" type="image/webp">
+                        <img type="image/png" src="images/call-wave2.png" alt="">
+                    </picture>
+                </div>
+                <div class="call-bg__wave3">
+                    <!-- <img src="images/call-wave3.png" alt=""> -->
+                    <picture>
+                        <source srcset="images/call-wave3.webp 1x" type="image/webp">
+                        <img type="image/png" src="images/call-wave3.png" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="container">
+                <div class="call-wrapper">
+                    <div class="call-wrapper__left">
+                        <div>Have&nbsp;</div>
+                        <div>An Idea?</div>
+                    </div>
+                    <div class="call-wrapper__right">
+                        <div class="call-wrapper__right-noise">
+                            <!-- <img src="images/NoiseEffect.png" alt=""> -->
+                            <picture>
+                                <source srcset="images/NoiseEffect.webp 1x" type="image/webp">
+                                <img type="image/png" src="images/NoiseEffect.png" alt="">
+                            </picture>
+
+                        </div>
+                        <div id="contact-form" class="call-wrapper__right-form">
+                            <div class="call-wrapper__right-form--title">
+                                <div>Let's work together!</div>
+                            </div>
+                            <form class="call-wrapper__right-form--wrapper" name="contactForm" id="contactForm"
+                                method="post" action="" autocomplete="off">
+
+                                <div class="call-wrapper__right-form--wrapper_toprow">
+                                    <input name="Name" type="text" id="contactName" placeholder="Name"
+                                        value="" />
+
+                                    <input name="Phone" type="tel" id="contactPhone" placeholder="Phone number"
+                                        value="" />
+                                </div>
+
+                                <input name="Email" type="email" id="contactEmail" placeholder="Email"
+                                    value="" />
+
+                                <textarea name="Message" id="contactMessage"
+                                    placeholder="Tell us about your project" rows="5" cols="50"></textarea>
+
+                                <button class="submitform">Order An App</button>
+
+
+                            </form>
+
+                            <div id="message-warning"></div>
+
+                            <div id="message-success">
+                                <div>Thank you for your message! <br> We will get in contact with you soon!</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-wrapper__left">
+                        <a href="/" class="footer-wrapper__left-logo">
+                            <img src="images/appstogo_logo.svg" alt="">
+                        </a>
+                        <div class="footer-wrapper__left-contact">
+                            <div class="footer-wrapper__left-contact--title">
+                                Contact Us
+                            </div>
+
+                            <div class="footer-wrapper__left-contact--email">
+                                <div>E-mail: <a href="mailto:email@email.com">email@email.com</a></div>
+                            </div>
+
+                            <div class="footer-wrapper__left-contact--phone">
+                                <div>Phone: <a href="tel:+380999999999">+380999999999</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="footer-wrapper__right">
+                        <div class="footer-wrapper__right-links">
+                            <!-- <a href="#" class="footer-wrapper__right-links--el">
+                                <img src="images/tel.svg" alt="">
+                            </a> -->
+                            <a href="#" class="footer-wrapper__right-links--el">
+                                <img src="images/tg.svg" alt="">
+                            </a>
+                            <a href="#" class="footer-wrapper__right-links--el">
+                                <img src="images/mail.svg" alt="">
+                            </a>
+                            <a href="#" class="footer-wrapper__right-links--el">
+                                <img src="images/fb.svg" alt="">
+                            </a>
+                            <a href="#" class="footer-wrapper__right-links--el">
+                                <img src="images/insta.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="footer-wrapper__right-copyrights">
+                            <div>©2021 AppsToGo | All Rights Reserved</div>
+                        </div>
+                        <div class="footer-wrapper__right-dev">
+                            <div>Developed by <a href="https://duolstudio.com/">DUOL Studio</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
