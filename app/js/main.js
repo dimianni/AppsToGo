@@ -246,6 +246,8 @@ $(function () {
 
     var sections = $(".section")
 
+    console.log(sections);
+
     let dknavigation_links = $(".header-wrapper__left-menu--el");
 
     let mobnavigation_links = $(".mobmenu-wrapper__el");
@@ -276,7 +278,9 @@ $(function () {
 
     });
 
-
+    console.log($('#contactForm'));
+    console.log($('#contactForm').serialize());
+    
     /*----------------------------------------------------*/
     /*	Валидация формы обратной связи
     ------------------------------------------------------*/

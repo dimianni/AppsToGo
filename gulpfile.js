@@ -112,14 +112,14 @@ function build() {
         ],
         { base: 'app' } // Same file structure as app folder
     )
-        .pipe(dest('dist'))
+        .pipe(dest('docs'))
 }
 
 /*----------------------------------------------------*/
 /*	Function that deletes dist folder
 ------------------------------------------------------*/
 function cleanDist() {
-    return del('dist')
+    return del('docs')
 }
 
 /*----------------------------------------------------*/
@@ -136,13 +136,13 @@ function images() {
                 ]
             })
         ]))
-        .pipe(dest('dist/images'))
+        .pipe(dest('docs/images'))
 }
 
 function webpImages() {
     return src('app/images/*.{jpg,png}')
         .pipe(webp({ quality: 100 }))
-        .pipe(dest('dist/images'))
+        .pipe(dest('docs/images'))
 }
 
 
