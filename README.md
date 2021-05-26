@@ -8,18 +8,36 @@
 git clone https://github.com/dimianni/AppsToGo.git
 ```
 
+## Installation
+
+First, make sure you have installed [NodeJS](https://nodejs.org/en/) globally on computer.
+
+Then, install [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start) globally with this command:
+
+```bash
+   npm i --global gulp-cli
+```
+
+After having installed Node and Gulp, and cloning the repo, run the following command in the folder's terminal:
+
+```bash
+  npm i 
+```
+
+node_modules folder and all the dependencies will be downloaded.
+
 ## Usage
 
-There are just a few commands to be aware of:
+There are only two commands.
 
 This will start a development server:
 ```bash
-npm run start
+gulp
 ```
 
 This will create a production build:
 ```bash
-npm run build
+gulp build
 ```
 
 ## Contributing
