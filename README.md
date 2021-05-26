@@ -22,4 +22,6 @@ This will create a production build:
 npm run build
 ```
 
+## Contributing
 
+Pull requests are welcome. Source code is located in the app folder.
